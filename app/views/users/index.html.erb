@@ -1,4 +1,6 @@
 <h1>Users#index</h1>
+<h1>Users#index</h1>
+<h1>Index</h1>
 
 <table>
 
@@ -8,7 +10,7 @@
       <td><%= user.email %></td>
       <td><%= link_to 'Voir le profil', user_path(user), class: "btn btn-primary" %></td>
       <td><%= link_to 'Editer les informations', edit_user_path(user), class: "btn btn-primary" %></td>
-      <td><%= link_to "Clique pour détruire", user, method: :delete,  class: "btn btn-danger" %></td>
+      <td><%= link_to "Supprimer le profil", user, method: :delete,  class: "btn btn-danger" %></td>
     </tr>
   <% end %>
 </table>

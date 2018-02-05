@@ -11,8 +11,8 @@
       <%= f.label :password_confirmation, "Confirmation" %>
       <%= f.password_field :password_confirmation %>      
 
-      <%= f.submit "Updater mon profil", class: "btn btn-lg btn-primary" %>
+      <%= f.submit "Updater mon profil", class: "btn-primary" %>
 
     <% end %>
 
-<%= link_to "Clique pour détruire", @user, method: :delete %>
+<%= link_to "Clique pour détruire", @user, method: :delete, class: "btn btn-danger" %>

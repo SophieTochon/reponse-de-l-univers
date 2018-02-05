@@ -1,10 +1,11 @@
 Rails.application.routes.draw do
+  root "static_pages#home"
+
+  get "/secret", to: "static_pages#secret"
+
   get 'users/new'
-
   get 'users/show'
-
   get 'users/edit'
-
   get 'users/index'
 
   resources :users

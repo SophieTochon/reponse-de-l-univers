@@ -2,6 +2,6 @@
 
 <%= @user.email %>
 
-<%= link_to "Editer mon profil", edit_user_path(@user) %>
+<%= link_to "Editer mon profil", edit_user_path(@user), class: "btn btn-primary" %>
 
-<%= link_to "Supprimer mon profil", @gossip, method: :delete %>
+<%= link_to "Supprimer mon profil", @gossip, method: :delete, class: "btn btn-danger" %>

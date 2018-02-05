@@ -1,2 +1,14 @@
 <h1>Users#index</h1>
-<p>Find me in app/views/users/index.html.erb</p>
+
+<table>
+
+	<% @users.each do |user| %>
+    <tr>
+      <td><%= user.id %></td>	
+      <td><%= user.email %></td>
+      <td><%= link_to 'Voir le profil', user_path(user) %></td>
+      <td><%= link_to 'Editer les informations', edit_user_path(user) %></td>
+      <td><%= link_to "Clique pour détruire", user, method: :delete %></td>
+    </tr>
+  <% end %>
+</table>

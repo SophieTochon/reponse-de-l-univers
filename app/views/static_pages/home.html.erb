@@ -1,0 +1,9 @@
+<h1>StaticPages#home</h1>
+<h1>StaticPages#home</h1>
+
+<% if logged_in? %>
+  <%= link_to "Découvrir le secret de l'Univers", secret_path, class: "btn btn-primary" %>
+<% else %>
+  <p><%= link_to "Créer un profil", new_user_path, class: "btn btn-primary" %> ou 
+  <%= link_to "Se connecter", login_path, class: "btn btn-primary" %></p>
+<% end %>

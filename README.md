@@ -1,24 +1,7 @@
-# README
+# Hello !
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Le programme est complet, à l'exception du 5.3. Pour le tester, tu peux télécharger ce repo et le faire tourner sur ta machine.
 
-Things you may want to cover:
+Le projet a été fait en pair, l'app de mon acolyte (qui inclut le point 5.3) est dispo sur Heroku à l'adresse https://topsecretseb.herokuapp.com/
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+**Have fun ! 🌴**
